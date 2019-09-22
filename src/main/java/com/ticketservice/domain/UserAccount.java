@@ -23,5 +23,5 @@ public class UserAccount {
 
     @Column
     private String phoneNumber;
-
+    
 }
