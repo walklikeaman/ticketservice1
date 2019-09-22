@@ -1,4 +1,4 @@
-package com.ticketservice.domian;
+package com.ticketservice.domain;
 
 import lombok.*;
 
@@ -39,8 +39,8 @@ public class Event {
     @Column
     private String description;
     @Column
-    ArrayList<String> images;
+    private List<String> images;
     @Column
-    List<PriceRanges> priceRanges;
+    private List<PriceRange> priceRanges;
 
 }

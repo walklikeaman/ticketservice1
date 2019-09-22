@@ -1,4 +1,4 @@
-package com.ticketservice.domian;
+package com.ticketservice.domain;
 
 import javax.persistence.*;
 

@@ -1,14 +1,15 @@
-package com.ticketservice.domian;
+package com.ticketservice.domain;
 
 import lombok.*;
 
 import java.util.ArrayList;
+
 @Builder
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class PriceRanges {
+public class PriceRange {
 
     private ArrayList<Integer> rows;
     private Double price;
